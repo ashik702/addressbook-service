@@ -1,5 +1,5 @@
 # addressbook-service
-This is service is similar to phone book from old times.
+This service is similar to phone book from old times.
 The Address Service help you find an entry against the search keyword you have passed.
 How this works 
 1. Just clone/download the repo.
