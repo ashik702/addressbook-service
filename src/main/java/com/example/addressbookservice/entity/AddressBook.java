@@ -35,4 +35,26 @@ public class AddressBook {
 
     @JsonProperty("zipcode")
     private int zipcode;
+
+    @Override
+    public String toString() {
+        return "AddressBook{" +
+                "addressId=" + addressId +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", street='" + street + '\'' +
+                ", city='" + city + '\'' +
+                ", state='" + state + '\'' +
+                ", zipcode=" + zipcode +
+                '}';
+    }
+
+    public AddressBook(String firstName, String lastName, String street, String city, String state, int zipcode) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.street = street;
+        this.city = city;
+        this.state = state;
+        this.zipcode = zipcode;
+    }
 }
